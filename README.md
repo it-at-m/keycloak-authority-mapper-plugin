@@ -14,17 +14,17 @@
 
 Plugin for mapping Keycloak permissions into user info authorities claim, also called permission mapper.
 
-## Built With
-
-- OpenJDK 21
-- Keycloak 26
-
 The Permission Mapper allows users to add permissions related to the user to the Userinfo endpoint.
 Since it may be necessary for applications to check access to a resource at the permissions level, this mapper provides
 that functionality. Thus, in the Spring Security context, in addition to access checks at the role level
 (e.g., `@PreAuthorize("hasRole(...)")`), it is also possible to perform checks at the permissions level
 (e.g., `@PreAuthorize("hasAuthority(...)")`). If the permissions of the current user are needed for another client,
 the ClientId can be specified as a query parameter. The keyword used for this is `audience`.
+
+## Built With
+
+- OpenJDK 21
+- Keycloak 26
 
 ## API
 
