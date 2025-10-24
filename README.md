@@ -1,5 +1,5 @@
-[open-issues]: https://github.com/it-at-m/refarch/issues
-[new-issue]: https://github.com/it-at-m/keycloak-plugins/issues/new/choose
+[open-issues]: https://github.com/it-at-m/keycloak-authority-mapper-plugin/issues
+[new-issue]: https://github.com/it-at-m/keycloak-authority-mapper-plugin/issues/new/choose
 [license]: ./LICENSE
 [new-issue-shield]: https://img.shields.io/badge/new%20issue-blue?style=for-the-badge
 [made-with-love-shield]: https://img.shields.io/badge/made%20with%20%E2%9D%A4%20by-it%40M-yellow?style=for-the-badge
